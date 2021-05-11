@@ -69,6 +69,7 @@ ul li {
   list-style: circle;
   text-decoration: underline;
   font: 1rem / 1 serif;
+  margin: 1rem;
 }
 
 .center {
