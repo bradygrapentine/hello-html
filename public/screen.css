@@ -71,7 +71,7 @@ ul li {
   text-align: left;
 }
 
-.center {
+img {
   display: block;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -80,6 +80,6 @@ ul li {
   text-align: center;
 }
 
-.center:hover {
+img:hover {
   text-transform: uppercase;
 }
