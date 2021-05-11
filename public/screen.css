@@ -23,11 +23,9 @@ h1 {
 
 h4 {
   font: 1.25rem / 1 serif;
-  background-color: rgb(41, 167, 102);
   padding: 0.5rem;
-  margin: 1rem 44rem 1rem 1rem;
-  border-radius: 2rem;
-  text-align: center;
+  margin: auto 1rem;
+  text-align: left;
   font-style: italic;
 }
 
@@ -66,10 +64,11 @@ ol li {
 }
 
 ul li {
-  list-style: circle;
   text-decoration: underline;
   font: 1rem / 1 serif;
   margin: 1rem;
+  list-style: none;
+  text-align: left;
 }
 
 .center {
