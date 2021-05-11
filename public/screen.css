@@ -1,5 +1,5 @@
 :root {
-  font: 16px / 1 sans-serif;
+  color: aliceblue;
 }
 
 html {
@@ -7,6 +7,79 @@ html {
 }
 
 body {
+  background-color: rgb(41, 41, 41);
   margin: 0;
   min-height: 100%;
+}
+
+h1 {
+  background-color: rgb(41, 167, 102);
+  padding: 1rem;
+  margin: 2rem 11rem 1.5rem 11rem;
+  border-radius: 2rem;
+  font: 2rem / 1 serif;
+  text-align: center;
+}
+
+h4 {
+  font: 1.25rem / 1 serif;
+  background-color: rgb(41, 167, 102);
+  padding: 0.5rem;
+  margin: 1rem 44rem 1rem 1rem;
+  border-radius: 2rem;
+  text-align: center;
+  font-style: italic;
+}
+
+h5 {
+  font: 1.1rem / 1 serif;
+  padding: 0.5rem;
+  margin: 1rem;
+  text-align: left;
+  text-decoration: underline;
+  color: rgb(41, 167, 102);
+}
+
+p {
+  font: 1rem / 1 'Dosis' sans-serif;
+  margin: 2rem;
+  text-align: center;
+}
+
+li {
+  margin: 1rem;
+  font: 1rem / 1 'Dosis' sans-serif;
+}
+
+li:hover {
+  margin: 0rem 1.5rem;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: circle;
+}
+
+ol li {
+  list-style: disc;
+  text-align: left;
+}
+
+ul li {
+  list-style: circle;
+  text-decoration: underline;
+  font: 1rem / 1 serif;
+}
+
+.center {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.center:hover {
+  text-transform: uppercase;
 }
